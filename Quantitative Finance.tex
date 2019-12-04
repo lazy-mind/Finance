@@ -1,0 +1,334 @@
+% style setup
+% -----------------------------------------------------------------------
+\documentclass[10pt,landscape]{article}
+\usepackage{amssymb,amsmath,amsthm,amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol,multirow}
+\usepackage[utf8]{inputenc}
+\usepackage{calc}
+\usepackage{ifthen}
+\usepackage[landscape]{geometry}
+\usepackage[colorlinks=true,citecolor=blue,linkcolor=blue]{hyperref}
+\usepackage{graphicx}
+
+
+\ifthenelse{\lengthtest { \paperwidth = 11in}}
+    { \geometry{top=.5in,left=.5in,right=.5in,bottom=.5in} }
+	{\ifthenelse{ \lengthtest{ \paperwidth = 297mm}}
+		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+	}
+\pagestyle{empty}
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%x
+                                {\normalfont\large\bfseries}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{0mm}%
+                                {-1explus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%
+                                {\normalfont\normalsize\bfseries}}
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {1ex plus .2ex}%
+                                {\normalfont\small\bfseries}}
+\makeatother
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt plus 0.5ex}
+% -----------------------------------------------------------------------
+% -----------------------------------------------------------------------
+% -----------------------------------------------------------------------
+
+\title{Quick Guide to LaTeX}
+
+\begin{document}
+
+\footnotesize
+
+% -----------------------------------------------------------------------
+% -----------------------------------------------------------------------
+% -----------------------------------------------------------------------
+
+
+
+\begin{center}
+     \Large{\textbf{Quantitative Finance -- Derivatives}} \\
+\end{center}
+
+\begin{multicols}{2}
+\setlength{\premulticols}{1pt}
+\setlength{\postmulticols}{1pt}
+\setlength{\multicolsep}{1pt}
+\setlength{\columnsep}{2pt}
+
+
+\section{Time value of money}
+\begin{itemize}
+	\item money has time value, because we can reinvest them
+	\item always picture a timeline in thinking about this problem
+\end{itemize}
+
+\section{Interest}
+\begin{itemize}
+	\item The easiest way to make money is by earning interest from the bank
+	\item simple interest rate (return calculation): $a_t = a_0*(1+it)$
+	\item compound interest rate (keep reinvest): $a_t = a_0(1+i)^t$
+	\item effective interest rate during a period: $i = \frac{a_n - a_{n-1}}{a_{n-1}}$
+	\item nominal rate of interest: $i^{(m)}$, meaning that this interest i is paid m times a year\\
+		an amount of $\frac{i^{(m)}}{m}$ will be paid at each time interval, therefore at the end $=(1+\frac{i^{(m)}}{m} )^m$\\
+		let m goes to infinity, we have the continuous form $(1+\frac{r}{m} )^{mt} \longrightarrow e^{rt}$
+	
+\end{itemize}
+
+\section{Annuities and Perpetuities}
+\begin{itemize}
+	\item annuity: fixed payment at each time point\\
+			annuity-immediate: payment at the end of interval\\
+			annuity-due: payment at the beginning of interval
+	\item perpetuities: fixed payment at each time point, until infinity\\
+		perpetuity-immediate: payment at the end of interval\\
+		perpetuity-due: payment at the beginning of interval
+\end{itemize}
+
+\section{Bonds: a fixed income instrument}
+\begin{itemize}
+	\item market graph of bonds: what kinds of bonds are out there
+	\item zero coupon bond: no coupon payment, only pay face value at maturity (treat as discount)\\
+			zero rate: the annualized rate of return (annual compound) $\longrightarrow B(t,T)(1+R(t,T))^{T-t} = 1$\\
+			continuous zero rate: $\longrightarrow B(t,T)e^{(T-t)R(t,T)} = 1$   [treat R(t,T) as an interest rate]\\
+			k-times per year: $\longrightarrow B_{(t,T)}(1+\frac{R_{(r,T)}}{m} )^m(T-t) = 1$
+	\item Bond with coupon: pay at specific time\\
+			
+			Yield-to-Maturity: the interest rate that makes present value of cash flow equals bond price\\
+			or we can say that the YTM is the IRR at this point: internal rate of return\\
+			it tells us the interest rate that this investment is representing, so that we can compare\\
+			
+			Annual Coupon Bond: $P = \sum \frac{CF_t}{(1+y)^t}$\\
+			Semi annual coupon bond: $P = \sum \frac{CF_t}{(1+\frac{y}{2	} )^{2t}}$\\
+			
+			So what happened in the market $\longrightarrow$ we calculate the bond price, by the risk-free rate\\
+			Therefore it is easy to imagine: \\
+			if risk-free rate goes up, the current bond price should drop\\
+			if risk-free rate goes down, the current bond price should rise\\
+			In short, the bond price is negatively correlated to the YTM\\
+			
+			It depends on how we structure the dependent variable and independent variables:\\
+			1. Calculate the bond price: the DV is bond price, IDV is the interest rate, negative correlated.\\
+			2, Calculate YTM: the DV is YTM, IDV is bond price, if bond price is high, meaning the YTM must be low\\
+	\item Relationship between zero coupon bond and coupon bond:\\
+			When a coupon bond pays no coupon, it is the same as zero coupon bond $\longrightarrow$ same price and YTM\\
+			With coupon bond introduce coupon, we have 2 dimension to interpret the results:\\
+			1. how the price will change: with introduction of future cash flow, interest rate does not change, price will rise; with price rise, the YTM will drop\\
+			2. how the YTM will change: not a good direction, stick to PRICE $\longrightarrow$ YTM path
+	\item Since the zero coupon bond has a higher YTM than coupon bond, it is some how confusing because we may think the coupon bond gives us more return.
+	\item We introduce the "Par Yield" to do standardization on the returns:\\
+	\item	Par Bond: the price = face value $\longrightarrow$ issue at par $\longrightarrow$ YTM = annual coupon rate\\
+		Par Yield: when a bond is issue at par, the coupon rate (annualized return) is equal to YTM (calculated annualized return)
+	\item Dollar Duration: the $\frac{dP}{dy}$ the derivatives of price w.r.t. YTM\\
+			Modified Duration: $-\frac{1}{P} \frac{dp}{dy}$, Dur normalized by price\\
+			Dollar Value of 1 basis point (DV01): $ = Dur \cdot (-1 bp)$\\
+			
+			At a specific price level, the Dollar Duration Dur, decrease as:\\
+			1. maturity increase (Dur is a price sensitivity measure to yield, with T goes up, it is more sensitive)\\
+			2. coupon increases (1. more money to discount, more sensitive. 2. more coupon means price up, then more sensitive)\\
+			3. YTM decrease (look at the graph, when YTM is small, it is steeper)\\
+	
+\end{itemize}
+
+\section{Forward Rates}
+\begin{itemize}
+	\item Diagram and calculation: separate the time into different intervals, make investment using respective rates
+	\item 
+\end{itemize}
+
+
+\section{Futures}
+
+
+\section{Options}
+* Memoryless:\\
+
+\section{Bonds}
+* Memoryless:
+
+\end{multicols}
+
+
+
+
+
+% -----------------------------------------------------------------------
+% -----------------------------------------------------------------------
+% -----------------------------------------------------------------------
+
+
+
+
+
+\newpage
+
+%\includegraphics[width=60mm,scale=1]{images/PACF-2.png}
+\begin{center}
+     \Large{\textbf{Financial Assets: Derivatives}} \\
+\end{center}\\
+
+\begin{multicols}{2}
+\setlength{\premulticols}{1pt}
+\setlength{\postmulticols}{1pt}
+\setlength{\multicolsep}{1pt}
+\setlength{\columnsep}{2pt}
+
+
+\section{Forwards / Futures}
+\begin{itemize}
+	\item Futures: Traded in the exchange, so basically standardized contract
+	\item Forwards: customized
+	\item Keywords: strike price, maturity day, long, short\\
+	
+	Agencies
+	\item Clearing house: ensure trader fulfill obligations
+	\item Margin: Trader deposit margin to fulfill obligations:\\
+		Initial margin ; Maintenance margin ; Variation margin ;
+	\item 
+	
+\end{itemize}
+
+\section{Options}
+\begin{itemize}
+	\item Vanilla Option / European Option: fixed maturity date, strike price
+	\item American Option: can exercise before maturity date
+	\item Bermudan Option: can exercise on pre-determined date
+	\item Barrier Option: can exercise once cross the barrier level: \\
+			up and out, down and out, up and in, down and in\\
+			1) Callable Bull: if always bull, then it is valid (never drop down barrier) [down and out]
+			2) Callable Bear: if always bear, then it is valid (never go up barrier) [up and out]
+			
+	\item Asian Option: the payoff determined by average price of pre-set period of time\\
+	
+	Option strategies: Notice difference between prices and payoff
+	\item Straddle: long 1 call and 1 put with same K and T
+	\item Strangle: long call and put with same K and T
+	\item Bull Spread: make money when price up: Buy call with $K_1$, sell call with $K_2$
+	\item Bear Spread: make money when price down: Buy call with $K_1$, sell call with $K_2$
+	\item Butterfly: long 2 calls, short call * 2
+	
+\end{itemize}
+
+\section{Warrents}
+\begin{itemize}
+	\item equity warrants: issue by company. represent the right to subscribe to equity securities
+	\item derivative warrants: issued by 3rd party.
+\end{itemize}
+
+\section{Swap: 2 parties exchange financial instruments}
+\begin{itemize}
+	\item Interest rate swap\\
+			A: expect Libor drops ; B: expect Libor ups\\
+			????
+	\item Benefit: 1) hedge against interest rate exposure ; 2) leverage comparative advantage\\
+			A: AAA rated company ; B: BBB rated company.\\
+			Company A will definitely have less lending interest rate in the market, in all loans\\
+			But that doesn't mean company A can't do better. We can calculate the spread and see what is company A's comparative advantage, and borrow only that kind of loan, other company can use their comparative advantage P38
+	\item 
+\end{itemize}
+
+
+\end{multicols}
+
+
+
+
+
+% -----------------------------------------------------------------------
+% -----------------------------------------------------------------------
+% -----------------------------------------------------------------------
+
+
+\newpage
+
+\newpage
+
+\begin{center}
+     \Large{\textbf{Financial Risk: Value at Risk}} \\
+\end{center}\\
+
+\begin{multicols}{2}
+\setlength{\premulticols}{1pt}
+\setlength{\postmulticols}{1pt}
+\setlength{\multicolsep}{1pt}
+\setlength{\columnsep}{2pt}
+
+\section{Return}
+\begin{itemize}
+	\item Arithmetic Return: $R_t = \frac{S_t - S_{t-1}}{S_{t-1}}$
+	\item Log Return: $log(1+R_t) = log(\frac{S_t}{S_{t-1}}) = log(S_t) - log(S_{t-1})$
+\end{itemize}
+
+\section{Volatility Measure}
+\begin{itemize}
+	\item $\sigma_s = \sqrt{\frac{1}{n-1} \sum (\mu_i - \bar \mu)^2}$
+	\item Then the volatility over N periods: $\sqrt{N}\sigma_s$
+\end{itemize}
+
+\section{VaR: Value-at-Risk}
+\begin{itemize}
+	\item if there is a distribution graph, starting from left to some point, this region is $\alpha$
+	\item the rest region to the right is $1-\alpha$, stands for the confidence: 95\%, 99\% etc.
+	\item We called $\alpha$ as the "tail probability", since it is the worst scenario
+	\item In a graphical sense, VaR is the $p-th$ quantile of the PnL distribution
+	\item "Relative VaR": $E[PnL] - VaR$
+\end{itemize}
+
+\section{Modeling the PnL distribution}
+\begin{itemize}
+	\item The fundamental of finding VaR is to model the portfolio PnL distribution
+	\item Parametric Approach:\\
+			Keypoint: construct the mean $\mu$ and volatility $\sigma$\\
+			Approach: convert to approach "standard normal distribution"\\
+			Then we can calculate VaR ; or extend this to a multi-time period scenario\\
+	\item Non-Parametric Approach: Historical Simulation\\
+			1. we want to know the price at tomorrow\\
+			2. we convert the a problem: how much will the portfolio value change\\
+			3. based on past period-wise change data, we treat it as distribution\\
+			4. select the change we need\\
+\end{itemize}
+			
+\end{multicols}
+
+
+\begin{center}
+     \Large{\textbf{Financial Risk: Hedging, Optimal Hedging}} \\
+\end{center}\\
+
+\begin{multicols}{2}
+\setlength{\premulticols}{1pt}
+\setlength{\postmulticols}{1pt}
+\setlength{\multicolsep}{1pt}
+\setlength{\columnsep}{2pt}
+
+\section{Idea}
+\begin{itemize}
+	\item Hedge against a instrument that is negatively correlated to your portfolio
+\end{itemize}
+
+\section{Quantify}
+\begin{itemize}
+	\item we want to minimize variance of new portfolio : $S+NF$, with $S$ original portfolio
+	\item we first construct the variance: $\sigma_s + N^2 \sigma_f + 2N\sigma_{s,f}$
+	\item Then N can be solved by using the solution for a square equation
+\end{itemize}
+
+\end{multicols}
+
+% -----------------------------------------------------------------------
+% -----------------------------------------------------------------------
+% -----------------------------------------------------------------------
+
+
+
+% style end
+% -----------------------------------------------------------------------
+\end{document}
+% -----------------------------------------------------------------------
