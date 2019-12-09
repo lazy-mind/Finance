@@ -248,8 +248,6 @@
 
 \newpage
 
-\newpage
-
 \begin{center}
      \Large{\textbf{Financial Risk: Value at Risk}} \\
 \end{center}\\
@@ -325,6 +323,109 @@
 % -----------------------------------------------------------------------
 % -----------------------------------------------------------------------
 % -----------------------------------------------------------------------
+
+
+
+
+
+\newpage
+
+\begin{center}
+     \Large{\textbf{Coursera - Columbia - No Arbitrage}} \\
+\end{center}\\
+
+\begin{multicols}{2}
+\setlength{\premulticols}{1pt}
+\setlength{\postmulticols}{1pt}
+\setlength{\multicolsep}{1pt}
+\setlength{\columnsep}{2pt}
+
+\section{Example of using No-Arbitrage pricing: }
+\begin{itemize}
+	\item \text{\color{red}1. A bond that pays A in 1 year:}
+		\\Pricing 1: portfolio that: buy 1 bond, borrow $\frac{A}{1+r}$
+		\\Pricing 2: portfolio that: sell 1 bond, lend $\frac{A}{1+r}$
+	\item \text{\color{red}2. Use compounding interest rate for pricing:}
+	\item \text{\color{red}3. Floating Rate Bond:}
+		\\The price of a floating rate bond, is equal to, the face value.
+	\item 
+\end{itemize}
+
+
+			
+\end{multicols}
+
+
+\begin{center}
+     \Large{\textbf{Cousera - Columbia - No Arbitrage in various assets}} \\
+\end{center}\\
+
+\begin{multicols}{2}
+\setlength{\premulticols}{1pt}
+\setlength{\postmulticols}{1pt}
+\setlength{\multicolsep}{1pt}
+\setlength{\columnsep}{2pt}
+
+\section{Swaps}
+\begin{itemize}
+	\item What is it: a trade between fixed and float rates
+	\item Why is it: leverage relative strength, capture trends in other markets
+	\item How does it works: do your best, borrow your weakness
+		\\1. A has relative strength in fixed rate
+		\\2. B has relative strength in floating rate
+		\\3. A will borrow fixed rate, B will borrow floating rate
+		\\4. A borrow floating from B, pays fixed to B 
+	\item How to price it: What should be the exchange rate pay to each other
+		\\1. Swap should be of 0 value to each party
+		\\2. Write the Cash Flow PV for one side
+		\\3. Set it to 0 and we calculate the payment rate
+\end{itemize}
+
+\section{Futures}
+\begin{itemize}
+	\item What is it: An traded an exchange standardized contract
+	\item Why need it: standardized, counter party risk, solved multiple price for same maturity
+	\item How does it works: Margin call (go to initial margin), clearing house
+	\item How to price it: 
+		\\
+	\item Minimum variance hedging (since perfect hedge is impossible):
+		\\
+\end{itemize}
+
+\section{Options}
+\begin{itemize}
+	\item In the money, at the money, out of the money
+	\item Put-Call Parity: call + cash = put + stock
+		\\ try to buy a stock, and use money to help me
+		\\ try to sell a stock, and hold a stock to help me
+		\\ $C + Ke^{-rt} = P + S$
+		\\ $C + Ke^{-rt} = P + S - D$ (with dividend)
+	\item Bounds of option prices
+\end{itemize}
+
+\section{Binomial Tree Pricing}
+\begin{itemize}
+	\item 1-period Binomial Tree: price goes up and down with probabilities, allow short sell
+	\item Multi-period Binomial Tree: extend with same prob and up/down scale
+	\item Replications: (buying shares, investing in cash) $\leftrightarrow$ (option)
+		\\ make the payoff equals
+	\item European and American Pricing: use risk-neutral prob to price:
+		\\ $q = \frac{R-d}{u-d}$. $C_0 = \frac{1}{R} [qC_u + (1-q)C_d ]$
+\end{itemize}
+
+
+\end{multicols}
+
+% -----------------------------------------------------------------------
+% -----------------------------------------------------------------------
+% -----------------------------------------------------------------------
+
+
+
+
+
+
+
 
 
 
