@@ -18,26 +18,32 @@
 \BOOKMARK [1][-]{section*.18}{redDuration - price sensitivity to yield change}{}% 18
 \BOOKMARK [1][-]{section*.19}{redconvexity - The rate of change of duration}{}% 19
 \BOOKMARK [1][-]{section*.20}{blackApplication of duration:}{}% 20
-\BOOKMARK [1][-]{section*.21}{Time value of money}{}% 21
-\BOOKMARK [1][-]{section*.22}{Interest}{}% 22
-\BOOKMARK [1][-]{section*.23}{Annuities and Perpetuities}{}% 23
-\BOOKMARK [1][-]{section*.24}{Bonds: a fixed income instrument}{}% 24
-\BOOKMARK [1][-]{section*.25}{Forward Rates}{}% 25
-\BOOKMARK [1][-]{section*.26}{Futures}{}% 26
-\BOOKMARK [1][-]{section*.27}{Options}{}% 27
-\BOOKMARK [1][-]{section*.28}{Bonds}{}% 28
-\BOOKMARK [1][-]{section*.29}{Forwards / Futures}{}% 29
-\BOOKMARK [1][-]{section*.30}{Options}{}% 30
-\BOOKMARK [1][-]{section*.31}{Warrents}{}% 31
-\BOOKMARK [1][-]{section*.32}{Swap: 2 parties exchange financial instruments}{}% 32
-\BOOKMARK [1][-]{section*.33}{Return}{}% 33
-\BOOKMARK [1][-]{section*.34}{Volatility Measure}{}% 34
-\BOOKMARK [1][-]{section*.35}{VaR: Value-at-Risk}{}% 35
-\BOOKMARK [1][-]{section*.36}{Modeling the PnL distribution}{}% 36
-\BOOKMARK [1][-]{section*.37}{Idea}{}% 37
-\BOOKMARK [1][-]{section*.38}{Quantify}{}% 38
-\BOOKMARK [1][-]{section*.39}{Example of using No-Arbitrage pricing: }{}% 39
-\BOOKMARK [1][-]{section*.40}{Swaps}{}% 40
-\BOOKMARK [1][-]{section*.41}{Futures}{}% 41
-\BOOKMARK [1][-]{section*.42}{Options}{}% 42
-\BOOKMARK [1][-]{section*.43}{Binomial Tree Pricing}{}% 43
+\BOOKMARK [1][-]{section*.21}{Equity Valuation}{}% 21
+\BOOKMARK [2][-]{section*.22}{Dividend Discount Model \(DDM\)}{section*.21}% 22
+\BOOKMARK [2][-]{section*.23}{Valuation multiples}{section*.21}% 23
+\BOOKMARK [1][-]{section*.24}{Portfolio Optimization}{}% 24
+\BOOKMARK [1][-]{section*.25}{Applying the CAPM}{}% 25
+\BOOKMARK [1][-]{section*.26}{CAPM Anomalies}{}% 26
+\BOOKMARK [1][-]{section*.27}{Time value of money}{}% 27
+\BOOKMARK [1][-]{section*.28}{Interest}{}% 28
+\BOOKMARK [1][-]{section*.29}{Annuities and Perpetuities}{}% 29
+\BOOKMARK [1][-]{section*.30}{Bonds: a fixed income instrument}{}% 30
+\BOOKMARK [1][-]{section*.31}{Forward Rates}{}% 31
+\BOOKMARK [1][-]{section*.32}{Futures}{}% 32
+\BOOKMARK [1][-]{section*.33}{Options}{}% 33
+\BOOKMARK [1][-]{section*.34}{Bonds}{}% 34
+\BOOKMARK [1][-]{section*.35}{Forwards / Futures}{}% 35
+\BOOKMARK [1][-]{section*.36}{Options}{}% 36
+\BOOKMARK [1][-]{section*.37}{Warrents}{}% 37
+\BOOKMARK [1][-]{section*.38}{Swap: 2 parties exchange financial instruments}{}% 38
+\BOOKMARK [1][-]{section*.39}{Return}{}% 39
+\BOOKMARK [1][-]{section*.40}{Volatility Measure}{}% 40
+\BOOKMARK [1][-]{section*.41}{VaR: Value-at-Risk}{}% 41
+\BOOKMARK [1][-]{section*.42}{Modeling the PnL distribution}{}% 42
+\BOOKMARK [1][-]{section*.43}{Idea}{}% 43
+\BOOKMARK [1][-]{section*.44}{Quantify}{}% 44
+\BOOKMARK [1][-]{section*.45}{Example of using No-Arbitrage pricing: }{}% 45
+\BOOKMARK [1][-]{section*.46}{Swaps}{}% 46
+\BOOKMARK [1][-]{section*.47}{Futures}{}% 47
+\BOOKMARK [1][-]{section*.48}{Options}{}% 48
+\BOOKMARK [1][-]{section*.49}{Binomial Tree Pricing}{}% 49
