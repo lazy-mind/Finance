@@ -1,4 +1,4 @@
-PWD /Users/michaelmao/Downloads/Github/Finance
+PWD /Users/michaelmao/Downloads/Github/Finance/Quantitative Finance
 INPUT /usr/local/texlive/2019/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -132,6 +132,9 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 INPUT /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./images/yield-expected_return-risk_free_return.jpeg
+INPUT ./images/yield-expected_return-risk_free_return.jpeg
+INPUT ./images/yield-expected_return-risk_free_return.jpeg
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT Quantitative Finance.aux
 INPUT ./Quantitative Finance.out
