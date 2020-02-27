@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.20)  25 FEB 2020 14:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.20)  26 FEB 2020 23:54
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -474,91 +474,96 @@ Overfull \hbox (2.33955pt too wide) in paragraph at lines 384--391
 []$ 
  []
 
+
+Overfull \hbox (30.41843pt too wide) in paragraph at lines 394--405
+[]$ 
+ []
+
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 570--571
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--575
+Underfull \hbox (badness 10000) in paragraph at lines 582--585
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--578
+Underfull \hbox (badness 10000) in paragraph at lines 586--588
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--584
+Underfull \hbox (badness 10000) in paragraph at lines 589--594
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--588
+Underfull \hbox (badness 10000) in paragraph at lines 595--598
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 594--595
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--600
+Underfull \hbox (badness 10000) in paragraph at lines 607--610
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--605
+Underfull \hbox (badness 10000) in paragraph at lines 611--615
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 619--620
+Underfull \hbox (badness 10000) in paragraph at lines 629--630
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 656--657
+Underfull \hbox (badness 10000) in paragraph at lines 666--667
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 676--677
+Underfull \hbox (badness 10000) in paragraph at lines 686--687
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 753--757
+Underfull \hbox (badness 10000) in paragraph at lines 763--767
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--762
+Underfull \hbox (badness 10000) in paragraph at lines 767--772
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 857--859
+Underfull \hbox (badness 10000) in paragraph at lines 867--869
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 859--861
+Underfull \hbox (badness 10000) in paragraph at lines 869--871
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 902.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 912.
 [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 902.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 912.
 (./Quantitative Finance.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 902.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 902.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 912.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 912.
 Package rerunfilecheck Info: File `"Quantitative Finance".out' has not changed.
 
 (rerunfilecheck)             Checksum: 970D295742571C0F2FB467288A295685;2972.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 902.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 912.
  ) 
 Here is how much of TeX's memory you used:
  6854 strings out of 492616
@@ -581,7 +586,7 @@ cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texl
 ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
 e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Quantitative Finance.pdf" (7 pages, 414870 bytes).
+Output written on "Quantitative Finance.pdf" (7 pages, 415721 bytes).
 PDF statistics:
  307 PDF objects out of 1000 (max. 8388607)
  281 compressed objects within 3 object streams

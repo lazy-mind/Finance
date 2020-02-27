@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1582659869 "Quantitative Finance.tex" "Quantitative Finance.pdf" "Quantitative Finance" 1582778021
+["pdflatex"] 1582779287 "Quantitative Finance.tex" "Quantitative Finance.pdf" "Quantitative Finance" 1582779288
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -84,12 +84,12 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557342064 3277517 23507ed665b4dd9046f0f2a94bbef2be ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1582231393 4259636 8a0b38396eafd45ec187a450814ea595 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "Quantitative Finance.aux" 1582659869 5985 9e2f9153eb6ddf5b69dbb71db1647aaf "pdflatex"
-  "Quantitative Finance.out" 1582659869 2972 970d295742571c0f2fb467288a295685 "pdflatex"
-  "Quantitative Finance.tex" 1582659868 32664 e7316a1c24d77d954ddcd8c431288bd0 ""
+  "Quantitative Finance.aux" 1582779288 5985 9e2f9153eb6ddf5b69dbb71db1647aaf "pdflatex"
+  "Quantitative Finance.out" 1582779288 2972 970d295742571c0f2fb467288a295685 "pdflatex"
+  "Quantitative Finance.tex" 1582779284 33457 8b3e84637514c9297b99c4d3c7a35c6b ""
   "images/yield-expected_return-risk_free_return.jpeg" 1582659703 233808 84d1c2773e9b1cb6b3c49fa230fad533 ""
   (generated)
-  "Quantitative Finance.pdf"
-  "Quantitative Finance.aux"
-  "Quantitative Finance.log"
   "Quantitative Finance.out"
+  "Quantitative Finance.pdf"
+  "Quantitative Finance.log"
+  "Quantitative Finance.aux"
