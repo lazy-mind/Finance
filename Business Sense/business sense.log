@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.20)  25 FEB 2020 14:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.20)  3 MAR 2020 10:18
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -409,7 +409,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<./images/asset_return_comparison.png, id=32, 1034.86626pt x 581.17125pt>
+<./images/asset_return_comparison.png, id=44, 1034.86626pt x 581.17125pt>
 File: ./images/asset_return_comparison.png Graphic file (type png)
 <use ./images/asset_return_comparison.png>
 Package pdftex.def Info: ./images/asset_return_comparison.png  used on input li
@@ -421,7 +421,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
-<./images/asset_return_comparison_2.jpeg, id=34, 2018.54124pt x 1490.56876pt>
+<./images/asset_return_comparison_2.jpeg, id=46, 2018.54124pt x 1490.56876pt>
 File: ./images/asset_return_comparison_2.jpeg Graphic file (type jpg)
 <use ./images/asset_return_comparison_2.jpeg>
 Package pdftex.def Info: ./images/asset_return_comparison_2.jpeg  used on input
@@ -431,38 +431,65 @@ Package pdftex.def Info: ./images/asset_return_comparison_2.jpeg  used on input
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
 s/asset_return_comparison.png> <./images/asset_return_comparison_2.jpeg>]
-<./images/interest-rate-spread.jpeg, id=45, 2253.41875pt x 1490.56876pt>
+<./images/interest-rate-spread.jpeg, id=57, 2253.41875pt x 1490.56876pt>
 File: ./images/interest-rate-spread.jpeg Graphic file (type jpg)
 <use ./images/interest-rate-spread.jpeg>
 Package pdftex.def Info: ./images/interest-rate-spread.jpeg  used on input line
  80.
 (pdftex.def)             Requested size: 485.7202pt x 321.28482pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
 [2 <./images/interest-rate-spread.jpeg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
+LaTeX Font Info:    Try loading font information for U+msa on input line 133.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 133.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148 ...  \includegraphics[width=0.8\textwidth]{}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
+[3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
 (./business sense.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
 Package rerunfilecheck Info: File `"business sense".out' has not changed.
-(rerunfilecheck)             Checksum: 3C19CD53B8249023DB6BCBE8FF2D9F9F;618.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
+(rerunfilecheck)             Checksum: C5BA46FE64314B3F308F074BDBC4E1BE;911.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
  ) 
 Here is how much of TeX's memory you used:
- 6724 strings out of 492616
- 97465 string characters out of 6129481
- 197477 words of memory out of 5000000
- 10565 multiletter control sequences out of 15000+600000
- 4553 words of font info for 17 fonts, out of 8000000 for 9000
+ 6767 strings out of 492616
+ 98055 string characters out of 6129481
+ 197478 words of memory out of 5000000
+ 10582 multiletter control sequences out of 15000+600000
+ 6252 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,5n,35p,242b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,10n,35p,242b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "business sense.pdf" (2 pages, 2315114 bytes).
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "business sense.pdf" (3 pages, 2350250 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 72 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 102 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

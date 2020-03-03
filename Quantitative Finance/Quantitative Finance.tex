@@ -334,6 +334,7 @@
                 \text{}& \text{(basis for value investing)}\\
                 \text{3. If investor don't sell the stock} & \displaystyle V_0=\frac{D_0(1+g)}{k-g} \rightarrow \displaystyle P_0=\frac{D_0(1+g)}{E(r)-g}\\
                 \rightarrow \text{Expected return = divs yield + growth in divs} & \displaystyle E(r)=\frac{D_0(1+g)}{P_0}+g\\
+                \text{Things change when switch investment horizon}
             \end{cases}
             $
 
@@ -407,13 +408,19 @@
 
     \section{Portfolio Optimization}
     \begin{itemize}
-        \item 
-        \item 
-        \item 
-        \item 
-        \item 
-        \item 
-        \item 
+        \item We move from long-term return to short-term return\\
+            $
+            \begin{cases}
+                \text{For long-term holding valuation: }\displaystyle E(r)=\frac{D_0(1+g)}{P_0}+g\\
+                \text{}\\
+                \text{For short-term holding valuation: }\displaystyle E(r_1)=\frac{V_0(1+k)}{P_0}-1\\
+            \end{cases}
+            $
+        \item Sharp Ratio: the risk premium per unit of risk: $\displaystyle SR_{us} = \frac{E[r_{us}]-f_f}{\sigma_{us}}$\\
+            As an investor, we always want a high sharp ratio
+        \item Mean Variance Efficient MVE: Diversification help us increase the sharp ratio
+        \item Mean-Variance Utility: $U_p = E(r_p) - \frac{1}{2}A(\sigma_p)^2$ , with ``A'' being the risk aversion
+        \item Optimal Portfolio Weights (weights in risky asset): $w_{MVE}^* = \frac{E[r_{MVE}]-r_f}{A\sigma_{MVE}^2}$
     \end{itemize}
 
     \section{Applying the CAPM}
