@@ -415,61 +415,73 @@ File: ./images/asset_return_comparison.png Graphic file (type png)
 Package pdftex.def Info: ./images/asset_return_comparison.png  used on input li
 ne 46.
 (pdftex.def)             Requested size: 431.75586pt x 242.46742pt.
+LaTeX Font Info:    Try loading font information fo75586pt x 242.46742pt.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 51.
+
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
-<./images/asset_return_comparison_2.jpeg, id=58, 2018.54124pt x 1490.56876pt>
+<./images/asset_return_comparison_2.jpeg, id=46, 2018.54124pt x 1490.56876pt>
 File: ./images/asset_return_comparison_2.jpeg Graphic file (type jpg)
 <use ./images/asset_return_comparison_2.jpeg>
 Package pdftex.def Info: ./images/asset_return_comparison_2.jpeg  used on input
  line 73.
 (pdftex.def)             Requested size: 323.81895pt x 239.10997pt.
-[1
+ [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
 s/asset_return_comparison.png> <./images/asset_return_comparison_2.jpeg>]
-<./images/interest-rate-spread.jpeg, id=69, 2253.41875pt x 1490.56876pt>
+<./images/interest-rate-spread.jpeg, id=57, 2253.41875pt x 1490.56876pt>
 File: ./images/interest-rate-spread.jpeg Graphic file (type jpg)
 <use ./images/interest-rate-spread.jpeg>
 Package pdftex.def Info: ./images/interest-rate-spread.jpeg  used on input line
  80.
 (pdftex.def)             Requested size: 485.7202pt x 321.28482pt.
-[2 <./images/interest-rate-spread.jpeg>]
+ [2 <./images/interest-rate-spread.jpeg>]
 LaTeX Font Info:    Try loading font information for U+msa on input line 133.
+
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 133.
+
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
-[3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
-(./business sense.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
-Package rerunfilecheck Info: File `"business sense".out' has not changed.
-(rerunfilecheck)             Checksum: 79D13657CB235D2074D2D449E582A72D;1180.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
- ) 
+
+./business sense.tex:148: LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148 ...  \includegraphics[width=0.8\textwidth]{}
+                                                  
+? 
+./business sense.tex:148: Emergency stop.
+ ...                                              
+                                                  
+l.148 ...  \includegraphics[width=0.8\textwidth]{}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
 Here is how much of TeX's memory you used:
- 6764 strings out of 492616
- 98086 string characters out of 6129481
- 199479 words of memory out of 5000000
- 10585 multiletter control sequences out of 15000+600000
+ 6765 strings out of 492616
+ 98137 string characters out of 6129481
+ 197478 words of memory out of 5000000
+ 10582 multiletter control sequences out of 15000+600000
  6252 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,5n,35p,377b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
-sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/lo
+ 28i,10n,35p,242b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
+./business sense.tex:148:  ==> Fatal error occurred, no output PDF file produce
+d!
+ts/type1/public/amsfonts/cm/cmr7.pfb></usr/lo
 cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 Output written on "business sense.pdf" (3 pages, 2344985 bytes).
 PDF statistics:
