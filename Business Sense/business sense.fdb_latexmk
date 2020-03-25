@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1583422754 "business sense.tex" "business sense.pdf" "business sense" 1583422755
+["pdflatex"] 1585058180 "business sense.tex" "business sense.pdf" "business sense" 1585058181
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -68,14 +68,14 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557342064 3277517 23507ed665b4dd9046f0f2a94bbef2be ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1582231393 4259636 8a0b38396eafd45ec187a450814ea595 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "business sense.aux" 1583422755 2488 f4e4c3e8c2ef9779113a1a40000a7454 "pdflatex"
-  "business sense.out" 1583422755 1180 79d13657cb235d2074d2d449e582a72d "pdflatex"
-  "business sense.tex" 1583422748 7518 4628c6e211b2829a1e584e1ee88e10d8 ""
+  "business sense.aux" 1585058181 2584 527b9f548e8a2da0b7d3fc810372aa90 "pdflatex"
+  "business sense.out" 1585058181 1227 42719727bf417b4eea7fd628c7bbbb82 "pdflatex"
+  "business sense.tex" 1585058179 8118 af1fe00be6e696b24d2826f47f07da7c ""
   "images/asset_return_comparison.png" 1582649947 200171 93ccd6cfbbae575657fa73a563ff596a ""
   "images/asset_return_comparison_2.jpeg" 1582655954 940329 94788890cf44c153ee58f4f4c2bebc46 ""
   "images/interest-rate-spread.jpeg" 1582656480 1204849 abcbee5ce040c0809dc38fca0e2d9771 ""
   (generated)
-  "business sense.pdf"
   "business sense.out"
-  "business sense.log"
+  "business sense.pdf"
   "business sense.aux"
+  "business sense.log"
