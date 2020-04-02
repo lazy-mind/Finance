@@ -1,9 +1,9 @@
-PWD /Users/michaelmao/Downloads/Github/Finance/Business Sense
+PWD /Users/michaelmao/Downloads/Github/Finance
 INPUT /usr/local/texlive/2019/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT business sense.tex
-OUTPUT business sense.log
+INPUT Quantitative Finance.tex
+OUTPUT Quantitative Finance.log
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/size10.clo
@@ -28,6 +28,8 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
@@ -73,11 +75,9 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/cases/cases.sty
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/cases/cases.sty
-INPUT business sense.aux
-INPUT business sense.aux
-OUTPUT business sense.aux
+INPUT Quantitative Finance.aux
+INPUT Quantitative Finance.aux
+OUTPUT Quantitative Finance.aux
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -86,14 +86,14 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT business sense.out
-INPUT business sense.out
-INPUT business sense.out
-INPUT business sense.out
-OUTPUT business sense.pdf
-INPUT ./business sense.out
-INPUT ./business sense.out
-OUTPUT business sense.out
+INPUT Quantitative Finance.out
+INPUT Quantitative Finance.out
+INPUT Quantitative Finance.out
+INPUT Quantitative Finance.out
+OUTPUT Quantitative Finance.pdf
+INPUT ./Quantitative Finance.out
+INPUT ./Quantitative Finance.out
+OUTPUT Quantitative Finance.out
 INPUT /usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -103,21 +103,20 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
-INPUT /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT ./images/asset_return_comparison.png
-INPUT ./images/asset_return_comparison.png
-INPUT ./images/asset_return_comparison.png
-INPUT ./images/asset_return_comparison_2.jpeg
-INPUT ./images/asset_return_comparison_2.jpeg
-INPUT ./images/asset_return_comparison_2.jpeg
-INPUT ./images/interest-rate-spread.jpeg
-INPUT ./images/interest-rate-spread.jpeg
-INPUT ./images/interest-rate-spread.jpeg
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -130,13 +129,23 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT business sense.aux
-INPUT ./business sense.out
-INPUT ./business sense.out
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT Quantitative Finance.aux
+INPUT ./Quantitative Finance.out
+INPUT ./Quantitative Finance.out
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
