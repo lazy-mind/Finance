@@ -135,11 +135,9 @@ INPUT /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./images/yield-expected_return-risk_free_return.jpeg
 INPUT ./images/yield-expected_return-risk_free_return.jpeg
 INPUT ./images/yield-expected_return-risk_free_return.jpeg
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT Quantitative Finance.aux
 INPUT ./Quantitative Finance.out
 INPUT ./Quantitative Finance.out
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb

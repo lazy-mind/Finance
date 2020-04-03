@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.20)  15 MAR 2020 19:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.20)  3 APR 2020 21:41
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -456,7 +456,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 293.
 
-<./images/yield-expected_return-risk_free_return.jpeg, id=218, 749.80125pt x 78
+<./images/yield-expected_return-risk_free_return.jpeg, id=222, 749.80125pt x 78
 7.94376pt>
 File: ./images/yield-expected_return-risk_free_return.jpeg Graphic file (type j
 pg)
@@ -484,117 +484,147 @@ Overfull \hbox (30.41843pt too wide) in paragraph at lines 400--411
 []$ 
  []
 
+
+Overfull \hbox (44.34015pt too wide) in paragraph at lines 448--457
+[]\OT1/cmr/m/n/8 Anomalies $\OMS/cmsy/m/n/8 !$ \OT1/cmr/m/n/8 al-pha: $[]$ 
+ []
+
+
+Overfull \hbox (20.8148pt too wide) in paragraph at lines 457--466
+[]\OT1/cmr/m/n/8 How to quan-tify the ef-fect: $[]$ 
+ []
+
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 593--594
-
+Overfull \hbox (29.21353pt too wide) in paragraph at lines 497--507
+\OT1/cmr/m/n/8 Example: Clear-Bridge Large Cap Growth Fund (Legg Ma-son) $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--598
-
+Overfull \hbox (1.87564pt too wide) in paragraph at lines 507--526
+\OT1/cmr/m/n/8 Example: Van-guard 500 In-dex Fund (Van-guard) $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--601
-
+Overfull \hbox (11.67857pt too wide) in paragraph at lines 526--535
+[]\OT1/cmr/m/n/8 Open-ended mu-tual funds $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 608--611
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 617--618
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 620--623
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 624--628
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 642--643
-
+Overfull \hbox (1.04648pt too wide) in paragraph at lines 544--553
+[]\OT1/cmr/m/n/8 Closed End Funds $[]$ 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 679--680
+Underfull \hbox (badness 10000) in paragraph at lines 695--696
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 699--700
+Underfull \hbox (badness 10000) in paragraph at lines 697--700
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 701--703
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 704--709
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 710--713
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--720
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--725
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 726--730
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 744--745
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 776--780
+Underfull \hbox (badness 10000) in paragraph at lines 781--782
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 780--785
+Underfull \hbox (badness 10000) in paragraph at lines 801--802
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 880--882
+Underfull \hbox (badness 10000) in paragraph at lines 878--882
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 882--884
+Underfull \hbox (badness 10000) in paragraph at lines 882--887
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 925.
 [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 925.
+Underfull \hbox (badness 10000) in paragraph at lines 982--984
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 984--986
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1027.
+[8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1027.
 (./Quantitative Finance.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 925.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 925.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1027.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1027.
+
 Package rerunfilecheck Info: File `"Quantitative Finance".out' has not changed.
 
-(rerunfilecheck)             Checksum: 970D295742571C0F2FB467288A295685;2972.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 925.
+(rerunfilecheck)             Checksum: 58D19D54671A23296CEA0C1233C333DA;3025.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1027.
  ) 
 Here is how much of TeX's memory you used:
- 6854 strings out of 492616
- 98995 string characters out of 6129481
- 247723 words of memory out of 5000000
+ 6855 strings out of 492616
+ 99004 string characters out of 6129481
+ 238720 words of memory out of 5000000
  10626 multiletter control sequences out of 15000+600000
- 9833 words of font info for 37 fonts, out of 8000000 for 9000
+ 9525 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,13n,32p,630b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
-/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
-sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/lo
-cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
-/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texl
-ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
-e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Quantitative Finance.pdf" (7 pages, 421665 bytes).
+ 28i,13n,32p,630b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pf
+b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loca
+l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "Quantitative Finance.pdf" (8 pages, 419231 bytes).
 PDF statistics:
- 307 PDF objects out of 1000 (max. 8388607)
- 281 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
- 406 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 285 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 414 words of extra memory for PDF output out of 10000 (max. 10000000)
 

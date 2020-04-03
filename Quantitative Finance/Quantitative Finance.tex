@@ -350,7 +350,7 @@
 
     \end{itemize}
 
-    \subsection{Dividend Discount Model (DDM)}
+    \section{Dividend Discount Model (DDM)}
     \begin{itemize}
         \item Basic Idea : Value (V) equals PV of dividends\\
         	$
@@ -375,7 +375,7 @@
     \end{itemize}
 
 
-    \subsection{Valuation multiples}
+    \section{Valuation multiples}
     \begin{itemize}
         \item Advantage of multiples: Avoid directly predicting cash flows and their growth 
         \item Disadvantages of multiples:\\
@@ -445,9 +445,111 @@
 
     \section{CAPM Anomalies}
     \begin{itemize}
-        \item 
-        \item 
-        \item 
+        \item Anomalies $\rightarrow$ alpha:
+            $
+            \begin{cases}
+                \text{Size (market capitalizaion): small beats big, but this effect is eaker recently}\\
+                \text{Value (B/M): high book to market ratio beats the growth}\\
+                \text{Beta: low beta beats high bta in risk-adjusted return (alpha)}\\
+                \text{Momentum: Past winner perform bad in the future}\\
+            \end{cases}
+            $
+        \item How to quantify the effect:
+            $
+            \begin{cases}
+                \text{SMB: real excess return - theoretical return}\\
+                \text{HML (value premium): retur of high B/M - return of low B/M}\\
+                \text{Beta: }\\
+                \text{UMD Momentum: up stock - down stocks}
+            \end{cases}
+            $
+        \item The Fama and French Three-Factor Model:\\
+            {\color{red}$r_{i t}-r_{f_{t}}=\alpha_{i}^{\mathrm{FF} 3}+\beta_{i}\left(r_{m t}-r_{f_{t}}\right)+s_{i} S M B_{t}+h_{i} H M L_{t}+e_{i t}$}\\
+            $
+            \begin{cases}
+                \text{Market Factor: } MktRf_t = r_{mt} - r_{ft}\\
+                \text{HML (value premium): retur of high B/M - return of low B/M}\\
+                \text{Beta: }\\
+                \text{Momentum Factor: } UMD_{t}=r_{Ut}-r_{Dt}  \\
+            \end{cases}
+            $\\
+            {\color{red}$\underbrace{r_{i t}-r_{f_{t}}}_{\text{asset excess return} }=\alpha_{i}^{\mathrm{FF} 3}+\beta_{i}\left(r_{m t}-r_{f_{t}}\right)+s_{i} S M B_{t}+h_{i} H M L_{t}+e_{i t}$}\\
+            Coefficients $s_{i}$ and $h_{i}$ are size and value betas (loadings)\\
+            Small (big) firms usually have positive (negative) $s_{i}$ values \\
+            Value (growth) firms usually'have positive (negative) $h_{i}$ values
+        \item Information Ratio:\\
+            Meaning: extra return we can obtain from analysis, compare to, \\
+            Scenario: For an investor holding the market, how much will Sharpe ratio improve if optimally weights BRK?\\
+                $S R_{N e w}=\sqrt{SR_{Init}^{2}+IR^{2}}$\\
+                $S R_{\text {Portfolio }}^{2}=S R_{\text {Market }}^{2}+\left[\displaystyle \frac{\alpha_{A}}{\sigma\left(e_{A}\right)}\right]^{2}$
+    \end{itemize}
+
+    \section{Performance evaluation: skill vs luck}
+    \begin{itemize}
+        \item The CAPM and multifactor models allow us to analyze average returns, risk, and investment strategies:\\
+            $
+            \begin{cases}
+                \text{Average returns: How much is alpha and how much is beta?}\\
+                \text{Risk: How much is systematic and how much is idiosyncratic?}\\
+                \text{Strategies: Are we using value/growth or small/big, etc.?}\\
+            \end{cases}
+            $
+        \item actively managed funds: managers pick the portfolio weights\\
+            Example: ClearBridge Large Cap Growth Fund (Legg Mason)
+            $
+            \begin{cases}
+                \text{people manage the fund}\\
+                \text{Sold by advisers and brokers}\\
+                \text{large-cap growth stocks}\\
+                \text{Annual turnover (trading) 20\%}\\
+            \end{cases}
+            $
+        \item passively managed index funds: computers pick index weights\\
+            Example: Vanguard 500 Index Fund (Vanguard)
+            $
+            \begin{cases}
+                \text{umans program computer to manage}\\
+                \text{track performance of S\&P500 Index}\\
+                \text{Directly sold to investors}\\
+                \text{Annual turnover (trading) 4\%}\\
+            \end{cases}
+            $\\
+            Usually, index fund with the lowest expense ratio have higher return\\
+            \begin{tabular}{|lcr|}
+            \hline Ticker & Expense Ratio & $2000-2015$ Avg. Return \\
+            \hline AAFPX & $0.60 \%$ & $4.71 \%$ \\
+            PREIX & $0.34 \%$ & $5.01 \%$ \\
+            VFINX & $0.17 \%$ & $5.16 \%$ \\
+            SPY & $0.09 \%$ & $5.19 \%$ \\
+            \hline
+            \end{tabular}
+        \item Open-ended mutual funds
+            $
+            \begin{cases}
+                \text{don’t trade on the open market}\\
+                \text{executed at net asset value (NAV) at end of day market close}\\
+                \text{can’t watch price fluctuate minute by minute like a stock}\\
+                \text{repriced based on number of shares bought and sold}\\
+            \end{cases}
+            $
+        \item Exchange-traded Funds
+            $
+            \begin{cases}
+                \text{}\\
+                \text{}\\
+                \text{}\\
+                \text{}\\
+            \end{cases}
+            $
+        \item Closed End Funds
+            $
+            \begin{cases}
+                \text{Similar to ETFs but actively managed}\\
+                \text{CEFs launch through an IPO, only set amt of shares enter market}\\
+                \text{supply and demand determining price}\\
+                \text{CEFs higher fees}\\
+            \end{cases}
+            $
     \end{itemize}
 
 

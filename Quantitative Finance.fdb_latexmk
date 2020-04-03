@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1585837549 "Quantitative Finance.tex" "Quantitative Finance.pdf" "Quantitative Finance" 1585837550
+["pdflatex"] 1585837549 "Quantitative Finance.tex" "Quantitative Finance.pdf" "Quantitative Finance" 1585919239
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -86,9 +86,9 @@
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
   "Quantitative Finance.aux" 1585837550 5985 7d9cea66e9d72b322a5890880f79a101 "pdflatex"
   "Quantitative Finance.out" 1585837550 2972 970d295742571c0f2fb467288a295685 "pdflatex"
-  "Quantitative Finance.tex" 1585837548 34799 2ec14a66eb24d7f705a6b782b0909c18 ""
+  "Quantitative Finance.tex" 1585919238 34799 2ec14a66eb24d7f705a6b782b0909c18 ""
   (generated)
   "Quantitative Finance.log"
-  "Quantitative Finance.pdf"
-  "Quantitative Finance.aux"
   "Quantitative Finance.out"
+  "Quantitative Finance.aux"
+  "Quantitative Finance.pdf"
