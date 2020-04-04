@@ -523,6 +523,11 @@
                 \text{Momentum Factor: }U M D_{t}=r_{U t}-r_{D t} 
             \end{cases}
             $\\
+
+            {\color{red}
+            $r_{i t}-r_{f t}=\alpha_{i}^{4 F}+\underbrace{\beta_{i}\left(r_{m t}-r_{f t}\right)+s_{i} S M B_{t}+h_{i} H M L_{t}+u_{i} U M D_{t}}_{4 \text { factor model benchmark }}+e_{i t}$
+            }
+
         \item Information Ratio: $\displaystyle I R=\frac{\alpha}{\sigma_{e}}$\\
             Meaning: extra return we can obtain from analysis, compare to, passive investment\\
             Scenario: For an investor holding the market, how much will Sharpe ratio improve if optimally weights BRK?\\
@@ -537,7 +542,7 @@
             \begin{cases}
                 \text{Average returns: How much is alpha and how much is beta?}\\
                 \text{Risk: How much is systematic and how much is idiosyncratic?}\\
-                \text{Strategies: Are we using value/growth or small/big, etc.?}\\
+                \text{Strategies: Are we using value/growth or small/big, etc.?}\
             \end{cases}
             $
         \item actively managed funds: managers pick the portfolio weights\\
@@ -554,21 +559,12 @@
             Example: Vanguard 500 Index Fund (Vanguard)
             $
             \begin{cases}
-                \text{umans program computer to manage}\\
+                \text{humans program computer to manage}\\
                 \text{track performance of S\&P500 Index}\\
                 \text{Directly sold to investors}\\
                 \text{Annual turnover (trading) 4\%}\\
             \end{cases}
             $\\
-            Usually, index fund with the lowest expense ratio have higher return\\
-            \begin{tabular}{|lcr|}
-            \hline Ticker & Expense Ratio & $2000-2015$ Avg. Return \\
-            \hline AAFPX & $0.60 \%$ & $4.71 \%$ \\
-            PREIX & $0.34 \%$ & $5.01 \%$ \\
-            VFINX & $0.17 \%$ & $5.16 \%$ \\
-            SPY & $0.09 \%$ & $5.19 \%$ \\
-            \hline
-            \end{tabular}
         \item Open-ended mutual funds
             $
             \begin{cases}
@@ -581,10 +577,9 @@
         \item Exchange-traded Funds
             $
             \begin{cases}
-                \text{}\\
-                \text{}\\
-                \text{}\\
-                \text{}\\
+                \text{traded in the exchange like a stock}\\
+                \text{fees lower than open-ended funds}\\
+                \text{Supply increases only when fund holdings are deposited}\\
             \end{cases}
             $
         \item Closed End Funds
@@ -594,6 +589,42 @@
                 \text{CEFs launch through an IPO, only set amt of shares enter market}\\
                 \text{supply and demand determining price}\\
                 \text{CEFs higher fees}\\
+            \end{cases}
+            $
+        \item Cost adjusted return: Usually, index fund with the lowest expense ratio have higher return\\
+            \begin{tabular}{|lcr|}
+            \hline Ticker & Expense Ratio & $2000-2015$ Avg. Return \\
+            \hline AAFPX & $0.60 \%$ & $4.71 \%$ \\
+            PREIX & $0.34 \%$ & $5.01 \%$ \\
+            VFINX & $0.17 \%$ & $5.16 \%$ \\
+            SPY & $0.09 \%$ & $5.19 \%$ \\
+            \hline
+            \end{tabular}
+        \item whether to include a fund in your investment: Buy the fund if alpha is positive relative to your portfolio\\
+            CAPM Example
+            $
+            \begin{cases}
+                \text{compares a fund to a “matching” portfolio}\\
+                \text{“matching” portfolio: market and risk-free asset, has same beta as the fund}\\
+                r_{i t}-\underbrace{\left[r_{f t}+\beta_{i}\left(r_{m t}-r_{f t}\right)\right]}_{\text {net long CAPM benchmark }}
+                =\alpha_{i}^{C}+e_{i t}\\
+                \text{The fund $\alpha$ = its average return - the average return of the matching portfolio}\\
+                \alpha_{i}^{C}
+                =E\left(r_{i}\right)-\left[\beta_{i} E\left(r_{m}\right)+\left(1-\beta_{i}\right) r_{f}\right]\\
+            \end{cases}
+            $\\
+
+            4-factor model: 
+            $r_{i t}-\underbrace{\left[r_{f t}+\beta_{i}\left(r_{m t}-r_{f t}\right)+s_{i} S M B_{t}+h_{i} H M L_{t}+u_{i} U M D_{t}\right]}_{\text{net long 4-factor model benchmark}}
+            =\alpha_{i}^{4 F}+e_{i t}$
+        \item Can past alpha predict future alpha?\\
+            $
+            \begin{cases}
+                \text{Individual stocks’ alphas do not usually persist}\\
+                \text{SMB, HML, and UMD portfolio alphas seem persistent}\\
+                \text{Some positive CAPM alphas persist}\\
+                \text{no fund group has positive 4-factor $\alpha$ (Possibly: Winning funds hold high momentum stocks)}\\
+                \text{The average fund alpha is negative}
             \end{cases}
             $
     \end{itemize}
