@@ -60,8 +60,8 @@
 	\end{center}
 
 	\begin{center}
-		\textbf{Prof. Brian P. Lancaster - blancaster.nyc@gmail.com - 860 898 0436 - Office Uris 319}\\
-		\textbf{TA: Sagar Agarwal - SAgarwal20@gsb.columbia.edu - 917 940 2485}
+		% \textbf{Prof. Brian P. Lancaster - blancaster.nyc@gmail.com - 860 898 0436 - Office Uris 319}\\
+		% \textbf{TA: Sagar Agarwal - SAgarwal20@gsb.columbia.edu - 917 940 2485}
 	\end{center}
 
 	\begin{multicols}{2}
@@ -347,7 +347,6 @@
                 \text{Sustainable LR payout: growth = (1 – payout) $\times$ ROE }\\
             \end{cases}
             $
-
     \end{itemize}
 
     \section{Dividend Discount Model (DDM)}
@@ -370,8 +369,7 @@
             $
         \item The Multi-stage DDM: - allows for multiple growth regimes\\
         	1. Economic Stimulus Could Produce Short-run Growth ‘Sugar High’\\
-        	2. Valuing temporarily higher (lower) growth is similar to valuing an increase (decrease) in the initial dividend (D0)
-        
+        	2. Valuing temporarily higher (lower) growth is similar to valuing an increase (decrease) in the initial dividend (D0)    
     \end{itemize}
 
 
@@ -440,7 +438,31 @@
         \item Market Risk Premium: $\displaystyle w_{M}^* = \frac{E[r_m]-r_f}{A\sigma_m^2} \longrightarrow {\color{red}E[r_m]-r_f} = w_m^*A\sigma_m^2$\\
             If keep weights in market same, then a rise in A or $\sigma_m$ ask for higher market risk premium\\
             If keep the same expectation in market risk premium, a change in A or $\sigma_m$ changes weights
-        \item $\alpha$ = expcected return - CAPM required return
+        \item SML: Security Market Line
+            $
+            \begin{cases}
+                E\left[r_{i}\right]-r_{f}=\beta_{i}\left(E\left[r_{M}\right]-r_{f}\right) \text{ with } \displaystyle \beta_{i}=\frac{\rho_{i, M} \sigma_{i}}{\sigma_{M}}=\frac{\operatorname{Cov}\left(r_{i}, r_{M}\right)}{\sigma_{M}^{2}}\\
+                {\color{red}E\left[r_{i}\right]=r_{f}+\beta_{i}\left(E\left[r_{M}\right]-r_{f}\right)}\\
+                \text{shows how required returns depend on risk }\beta\\
+                \text{Required and expected returns are the same in efficient markets}\\
+            \end{cases}
+            $
+        \item $\alpha$ = expcected return - CAPM required return. A "mispriced" stock has $\alpha \neq 0$
+        \item SCL: Security Characteristic Line: {\color{red}$r_{i t}-r_{f t}=\alpha_{i}+\beta_{i}\left(r_{m t}-r_{f t}\right)+e_{i t}$}\\
+            $ \underbrace{\sigma_{i}^{2}}_{\text{total variance / risk}}= 
+            \underbrace{\beta_{i}^{2} \sigma_{M}^{2}}_{\text{Systematic risk}}+
+            \underbrace{\sigma_{e_{i}}^{2}}_{\text{Idiosyncratic risk}}$\\
+            Systematic risks contribute to the overall risk of any portfolio.\\
+            Idiosyncratic risks can be diversified away in a portfolio\\
+            The SCL regression R2 is (systematic risk)/(total risk) $\displaystyle R^{2}=\frac{\beta_{i}^{2} \sigma_{M}^{2}}{\sigma_{i}^{2}}$
+            % $
+            % \begin{cases}
+            %     \text{}\\
+            %     \text{}\\
+            %     \text{}\\
+            %     \text{}\\
+            % \end{cases}
+            % $
     \end{itemize}
 
     \section{CAPM Anomalies}
