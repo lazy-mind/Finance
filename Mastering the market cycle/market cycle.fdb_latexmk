@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1585379669 "expected return.tex" "expected return.pdf" "expected return" 1588956386
+["pdflatex"] 1588961979 "market cycle.tex" "market cycle.pdf" "market cycle" 1588961980
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -50,17 +50,18 @@
   "/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty" 1463608860 22417 1d9df1eb66848aa31b18a593099cf45c ""
   "/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty" 1463608860 9581 023642318cef9f4677efe364de1e2a27 ""
   "/usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty" 1523050425 10212 357072c1d20578a30d6387d8a22e72ab ""
+  "/usr/local/texlive/2019/texmf-dist/tex/latex/tools/indentfirst.sty" 1523050425 1615 dba466e323af4fcd4a6acb87444d96c3 ""
   "/usr/local/texlive/2019/texmf-dist/tex/latex/tools/multicol.sty" 1546812253 30849 03c22687ffd5fa0f72f2a417c6cf4ce1 ""
   "/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf" 1557092114 35484 cb1661360667bf4db662a8895053b554 ""
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557342064 3277517 23507ed665b4dd9046f0f2a94bbef2be ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1582231393 4259636 8a0b38396eafd45ec187a450814ea595 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "expected return.aux" 1585379670 782 3e234118079270e2af334b4051de55dd "pdflatex"
-  "expected return.out" 1585379670 60 3915847ee96dcd6574dc2b3f89d355be "pdflatex"
-  "expected return.tex" 1588956385 6375 03a1fb23c5d27dad1472a46b01c15f8c ""
+  "market cycle.aux" 1588961980 1246 e4cf339cce6c79dac1bf54e6d3c3efe7 "pdflatex"
+  "market cycle.out" 1588961980 344 4c8b01c0ab7bf27f7a7b71f2c079b70c "pdflatex"
+  "market cycle.tex" 1588961979 5109 8f15b07483015bc72e78cb13889c8310 ""
   (generated)
-  "expected return.pdf"
-  "expected return.aux"
-  "expected return.out"
-  "expected return.log"
+  "market cycle.pdf"
+  "market cycle.out"
+  "market cycle.log"
+  "market cycle.aux"
