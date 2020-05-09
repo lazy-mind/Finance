@@ -674,36 +674,55 @@
     \end{itemize}
 
 
-
-
+% option
 \newpage
     \begin{center}
          \Large{\textbf{Options}} \\
     \end{center}
 
-    \section{Options and Leverage }
+    \begin{multicols}{2}
+    \setlength{\premulticols}{1pt}
+    \setlength{\postmulticols}{1pt}
+    \setlength{\multicolsep}{1pt}
+    \setlength{\columnsep}{2pt}
+
+    \section{Options and Leverage - Aribitrage \& Risk Neutral Pricing}
     \begin{itemize}
-        \item A call option is a cheap way of betting that the underlying risky asset will increase in price
-        \item A natural alternative is to buy the risky asset with leverage
+        \item A call option is a cheap way of betting that the underlying risky asset will increase in price $\longrightarrow$ A natural alternative is to buy the risky asset with leverage
         \item Call option on a stock = long stock + short risk-free asset 
         \item Put option on a stock = short stock + long risk-free asset
-        \item Replication: 1. get option return ; 2. use stock price to match ; 3. match bond with the difference of value between stock and option
+        \item How to do option Replication: \\
+            1. get option return $\longrightarrow$ payoff that we want to reeplicate \\
+            2. use stock price to match option payoff $\longrightarrow$ volatility match\\
+                (formula Option2, page8)\\
+            3. match bond with the difference of value between stock and option $\longrightarrow$ principle match\\
+                (formula Option2, page8) the diff between payoff\\
+        \item The practical side of arbitrage - restrictions:\\
+            1. bid-ask spread\\
+            2. lending fee for short stock\\
+            3. lending fee for rf asset\\
+        \item {\color{red}Formula - option pricing with arbitrage}\\
+            1. (formula Option2, page17)\\
+            2. (formula Option2, page18)\\
+            3. (formula Option2, page8)\\
+        \item Challenge - How to determine volatility forecast
     \end{itemize}
 
-    \section{Binomial Pricing for options - No-arbitrage valuation}
+    \section{Relationship between parameters and option prices}
     \begin{itemize}
-        \item option payoff/return depends on stock's future volatility: we have the up scenario and down scenario
-        \item hedge ratio: the number of shares of stock to mimic the option's risk
-        \item 
-        \item 
-        \item 
-        \item 
         \item 
     \end{itemize}
 
-    \section{Risk-neutral valuation }
+    \section{Challenge - How to model the parameters in pricing option}
     \begin{itemize}
-        \item 
+        \item $u = e^{\sigma \sqrt{\triangle t}}$
+        \item $d = e^{- \sigma \sqrt{\triangle t}}$
+        \item $\sigma$ - historical\\
+            1. get daily return $r_{cc}$\\
+            2. Compute the volatility of returns\\
+            3. annualized daily return volatility: multiply $\sqrt{252}$
+        \item $\sigma$ - future - need to use relevant history to predict\\
+        \item {\color{red} notice we need to use continuous compounding}
     \end{itemize}
 
     \section{Put-Call Parity}
@@ -720,6 +739,8 @@
     \begin{itemize}
         \item 
     \end{itemize}
+
+    \end{multicols}
 
 
 
