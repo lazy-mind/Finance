@@ -32,29 +32,33 @@
 \BOOKMARK [1][-]{section*.32}{Options and Leverage - Aribitrage \046 Risk Neutral Pricing}{}% 32
 \BOOKMARK [1][-]{section*.33}{Relationship between parameters and option prices}{}% 33
 \BOOKMARK [1][-]{section*.34}{Challenge - How to model the parameters in pricing option}{}% 34
-\BOOKMARK [1][-]{section*.35}{Put-Call Parity}{}% 35
-\BOOKMARK [1][-]{section*.36}{Black-Schole's Formulation}{}% 36
-\BOOKMARK [1][-]{section*.37}{dynamic option strategies}{}% 37
-\BOOKMARK [1][-]{section*.38}{Time value of money}{}% 38
-\BOOKMARK [1][-]{section*.39}{Interest}{}% 39
-\BOOKMARK [1][-]{section*.40}{Annuities and Perpetuities}{}% 40
-\BOOKMARK [1][-]{section*.41}{Bonds: a fixed income instrument}{}% 41
-\BOOKMARK [1][-]{section*.42}{Forward Rates}{}% 42
-\BOOKMARK [1][-]{section*.43}{Futures}{}% 43
-\BOOKMARK [1][-]{section*.44}{Options}{}% 44
-\BOOKMARK [1][-]{section*.45}{Bonds}{}% 45
-\BOOKMARK [1][-]{section*.46}{Forwards / Futures}{}% 46
-\BOOKMARK [1][-]{section*.47}{Options}{}% 47
-\BOOKMARK [1][-]{section*.48}{Warrents}{}% 48
-\BOOKMARK [1][-]{section*.49}{Swap: 2 parties exchange financial instruments}{}% 49
-\BOOKMARK [1][-]{section*.50}{Return}{}% 50
-\BOOKMARK [1][-]{section*.51}{Volatility Measure}{}% 51
-\BOOKMARK [1][-]{section*.52}{VaR: Value-at-Risk}{}% 52
-\BOOKMARK [1][-]{section*.53}{Modeling the PnL distribution}{}% 53
-\BOOKMARK [1][-]{section*.54}{Idea}{}% 54
-\BOOKMARK [1][-]{section*.55}{Quantify}{}% 55
-\BOOKMARK [1][-]{section*.56}{Example of using No-Arbitrage pricing: }{}% 56
-\BOOKMARK [1][-]{section*.57}{Swaps}{}% 57
-\BOOKMARK [1][-]{section*.58}{Futures}{}% 58
-\BOOKMARK [1][-]{section*.59}{Options}{}% 59
-\BOOKMARK [1][-]{section*.60}{Binomial Tree Pricing}{}% 60
+\BOOKMARK [1][-]{section*.35}{From Binomial to Black Scholes}{}% 35
+\BOOKMARK [1][-]{section*.36}{Put-Call Parity}{}% 36
+\BOOKMARK [1][-]{section*.37}{Option Strategies}{}% 37
+\BOOKMARK [1][-]{section*.38}{It is all about redVolatility}{}% 38
+\BOOKMARK [1][-]{section*.39}{Black-Schole's Formulation}{}% 39
+\BOOKMARK [1][-]{section*.40}{Implied Volatility Property}{}% 40
+\BOOKMARK [1][-]{section*.41}{dynamic option strategies}{}% 41
+\BOOKMARK [1][-]{section*.42}{Time value of money}{}% 42
+\BOOKMARK [1][-]{section*.43}{Interest}{}% 43
+\BOOKMARK [1][-]{section*.44}{Annuities and Perpetuities}{}% 44
+\BOOKMARK [1][-]{section*.45}{Bonds: a fixed income instrument}{}% 45
+\BOOKMARK [1][-]{section*.46}{Forward Rates}{}% 46
+\BOOKMARK [1][-]{section*.47}{Futures}{}% 47
+\BOOKMARK [1][-]{section*.48}{Options}{}% 48
+\BOOKMARK [1][-]{section*.49}{Bonds}{}% 49
+\BOOKMARK [1][-]{section*.50}{Forwards / Futures}{}% 50
+\BOOKMARK [1][-]{section*.51}{Options}{}% 51
+\BOOKMARK [1][-]{section*.52}{Warrents}{}% 52
+\BOOKMARK [1][-]{section*.53}{Swap: 2 parties exchange financial instruments}{}% 53
+\BOOKMARK [1][-]{section*.54}{Return}{}% 54
+\BOOKMARK [1][-]{section*.55}{Volatility Measure}{}% 55
+\BOOKMARK [1][-]{section*.56}{VaR: Value-at-Risk}{}% 56
+\BOOKMARK [1][-]{section*.57}{Modeling the PnL distribution}{}% 57
+\BOOKMARK [1][-]{section*.58}{Idea}{}% 58
+\BOOKMARK [1][-]{section*.59}{Quantify}{}% 59
+\BOOKMARK [1][-]{section*.60}{Example of using No-Arbitrage pricing: }{}% 60
+\BOOKMARK [1][-]{section*.61}{Swaps}{}% 61
+\BOOKMARK [1][-]{section*.62}{Futures}{}% 62
+\BOOKMARK [1][-]{section*.63}{Options}{}% 63
+\BOOKMARK [1][-]{section*.64}{Binomial Tree Pricing}{}% 64

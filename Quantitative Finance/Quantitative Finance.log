@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.20)  9 MAY 2020 05:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.20)  15 MAY 2020 02:57
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -456,7 +456,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 293.
 
-<./images/yield-expected_return-risk_free_return.jpeg, id=258, 749.80125pt x 78
+<./images/yield-expected_return-risk_free_return.jpeg, id=274, 749.80125pt x 78
 7.94376pt>
 File: ./images/yield-expected_return-risk_free_return.jpeg Graphic file (type j
 pg)
@@ -561,131 +561,141 @@ Underfull \hbox (badness 10000) in paragraph at lines 694--700
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 700--704
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 704--708
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 724--725
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 863--864
+Underfull \hbox (badness 10000) in paragraph at lines 710--714
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 865--868
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 869--871
+Underfull \hbox (badness 10000) in paragraph at lines 746--748
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 872--877
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 783.
+
+[6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 931--932
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--881
+Underfull \hbox (badness 10000) in paragraph at lines 933--936
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 887--888
+Underfull \hbox (badness 10000) in paragraph at lines 937--939
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 890--893
+Underfull \hbox (badness 10000) in paragraph at lines 940--945
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 894--898
+Underfull \hbox (badness 10000) in paragraph at lines 946--949
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 912--913
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 949--950
+Underfull \hbox (badness 10000) in paragraph at lines 955--956
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 969--970
+Underfull \hbox (badness 10000) in paragraph at lines 958--961
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 962--966
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 980--981
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1050
+Underfull \hbox (badness 10000) in paragraph at lines 1017--1018
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1050--1055
+Underfull \hbox (badness 10000) in paragraph at lines 1037--1038
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 1150--1152
+Underfull \hbox (badness 10000) in paragraph at lines 1114--1118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1152--1154
+Underfull \hbox (badness 10000) in paragraph at lines 1118--1123
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1195.
 [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1195.
+Underfull \hbox (badness 10000) in paragraph at lines 1218--1220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1220--1222
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1263.
+[11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1263.
 (./Quantitative Finance.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1195.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1195.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1263.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1263.
 
 Package rerunfilecheck Info: File `"Quantitative Finance".out' has not changed.
 
-(rerunfilecheck)             Checksum: EB0A85EA05BC45252970D36BC36B73A1;3702.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1195.
+(rerunfilecheck)             Checksum: 3515ED98DDFA41D14EB4990E13F07D39;3957.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1263.
  ) 
 Here is how much of TeX's memory you used:
- 6875 strings out of 492616
- 99233 string characters out of 6129481
+ 6896 strings out of 492616
+ 99456 string characters out of 6129481
  253595 words of memory out of 5000000
- 10635 multiletter control sequences out of 15000+600000
- 9525 words of font info for 36 fonts, out of 8000000 for 9000
+ 10645 multiletter control sequences out of 15000+600000
+ 11360 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,17n,32p,630b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
-/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pf
-b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/l
-ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loca
-l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texli
-ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Quantitative Finance.pdf" (10 pages, 426906 bytes).
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
+texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "Quantitative Finance.pdf" (11 pages, 442670 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
- 329 compressed objects within 4 object streams
- 71 named destinations out of 1000 (max. 500000)
- 486 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 384 PDF objects out of 1000 (max. 8388607)
+ 353 compressed objects within 4 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 518 words of extra memory for PDF output out of 10000 (max. 10000000)
 

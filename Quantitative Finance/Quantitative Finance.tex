@@ -691,26 +691,39 @@
         \item A call option is a cheap way of betting that the underlying risky asset will increase in price $\longrightarrow$ A natural alternative is to buy the risky asset with leverage
         \item Call option on a stock = long stock + short risk-free asset 
         \item Put option on a stock = short stock + long risk-free asset
-        \item How to do option Replication: \\
-            1. get option return $\longrightarrow$ payoff that we want to reeplicate \\
+        \item {\color{red}No Arbitrage:} How to do option Replication: \\
+            1. get option return $\longrightarrow$ payoff that we want to replicate. (Here we have our assumption on the future stock price movement)\\
             2. use stock price to match option payoff $\longrightarrow$ volatility match\\
-                (formula Option2, page8)\\
+                $\boldsymbol{\Delta}=\left(\mathbf{C}_{\mathbf{u}}-\mathbf{C}_{\mathbf{d}}\right) /\left(\mathbf{S}_{\mathbf{u}}-\mathbf{S}_{\mathbf{d}}\right)$\\
             3. match bond with the difference of value between stock and option $\longrightarrow$ principle match\\
-                (formula Option2, page8) the diff between payoff\\
+                $\mathbf{B}_{\mathrm{Q}}=\mathbf{P} \mathbf{V}\left[\left(\mathbf{C}_{\mathrm{d}} \mathbf{u}-\mathbf{C}_{\mathrm{H}} \mathbf{d}\right) /(\mathbf{u}-\mathbf{d})\right]$ the diff between payoff\\
+
+                The reasoning is: now that future value is the same, the current value must be the same
+
+
         \item The practical side of arbitrage - restrictions:\\
             1. bid-ask spread\\
             2. lending fee for short stock\\
             3. lending fee for rf asset\\
-        \item {\color{red}Formula - option pricing with arbitrage}\\
-            1. (formula Option2, page17)\\
-            2. (formula Option2, page18)\\
-            3. (formula Option2, page8)\\
+
+
+        \item {\color{red}Binomial Model for Risk Neutral Pricing}\\
+            1. $C_{0}=\Delta S_{0}+B=\frac{C_{u}-C_{d}}{u-d}+\frac{1}{\left(1+r_{f} / 2\right)^{2 T}}\left(\frac{C_{d} u-C_{u} d}{u-d}\right)$\\
+            2. $C_{0}=\frac{1}{\left(1+r_{f} / 2\right)^{2 T}}[\underbrace{\left[\frac{\left(1+r_{f} / 2\right)^{2 T}-d}{u-d}\right]}_{q} C_{u}+\underbrace{\left[\frac{u-\left(1+r_{f} / 2\right)^{2 T}}{u-d}\right]}_{1-q} C_{d}$\\
+            3. $q=\frac{\left(1+r_{f} / 2\right)^{2 T}-d}{u-d}$\\
         \item Challenge - How to determine volatility forecast
     \end{itemize}
 
     \section{Relationship between parameters and option prices}
     \begin{itemize}
-        \item 
+        \item $K \uparrow \Rightarrow C_{0} \downarrow$
+        \item $S_{0} \uparrow \Rightarrow C_{0} \uparrow$
+        \item $\sigma \uparrow \Rightarrow(u-d) \uparrow \Rightarrow C_{0} \uparrow$
+        \item $T \uparrow \Rightarrow(u-d) \uparrow \Rightarrow C_{0} \uparrow$
+        \item $r_{f} \uparrow \Rightarrow C_{0} \uparrow$
+        \item For Call Option\\Early exercise is almost always worse than selling the call\\Exception: Deep in-the-money call on a stock that will pay a big dividend before expires
+        \item For Deep in the money Put Option\\
+        If the risk-free rate is positive, you should exercise early
     \end{itemize}
 
     \section{Challenge - How to model the parameters in pricing option}
@@ -725,14 +738,69 @@
         \item {\color{red} notice we need to use continuous compounding}
     \end{itemize}
 
+    \section{From Binomial to Black Scholes}
+    \begin{itemize}
+        \item Why Binomial isn't enough:\\
+            1. Price Coverage\\
+            2. Exercise before maturity (for the synthetic one)
+        \item This two problem can be solved by:\\
+            1. Use smaller time frame, until infinity (Black Scholes' case). By dividing the time interval to smaller fraction, we can theoretically cover all possible prices at expiration\\
+        \item {\color{blue}No Arbitrage Revisit}:\\
+            1. Using the Blackshole's formula, we can get a call option price. Then we need to create a synthetic call. S - 266.63 ; K - 270 ; c - 12.04\\
+            2. {\color{green}TODO: Option 3 Page 14: }how to create leveraged synthetic call option\\
+            3. The leverage: \\For stock part: $\mathbf{w}=\left(\mathbf{\Lambda}_{\mathrm{c}} \times \mathbf{S}_{0}\right) / \mathbf{C}_{\mathbf{0}}$ ; \\For bond part: $-986 \%$ = (-118.65/12.04)
+    \end{itemize}
+
     \section{Put-Call Parity}
     \begin{itemize}
         \item 
+        $P_{0}+S_{0}=C_{0}+P V(K)$\\
+        (In other words, bonds that par at K)
+
+        \item Graph representation of the replication\\
+            Page 17
+        \item 
+
+        \begin{tabular}{|l|l|}
+        \hline$P_{0}+S_{0}=C_{0}+PV(K)$ & \multicolumn{1}{|c|} { Protective Put} \\
+        \hline$P_{0}=C_{0}+P V(K)-S_{0}$ & \multicolumn{1}{|c|} { Synthetic Put }  \\
+        \hline$C_{0}=P_{0}+S_{0}-P V(K)$ & Synthetic Cal \\
+        \hline$S_{0}=C_{0}-P_{0}+P V(K)$ & Synthetic Stock \\
+        \hline$P V(K)=S_{0}+P_{0}-C_{0}$ & Synthetic Bond \\
+        \hline
+        \end{tabular}
+        \item Further discussion:\\
+        1. if a stock paydividend : substract PV(divident) from stock value
+    \end{itemize}
+
+    \section{Option Strategies}
+    \begin{itemize}
+        \item Speculate events or hedge risk
+        \item synthesize option payoff
+        \item Arbitrage: option and synthetic option prices are close
+    \end{itemize}
+
+    \section{It is all about {\color{red}Volatility}}
+    \begin{itemize}
+        \item Implied Volatility: volatility value that makes option value equals actual market price
+        \item Average of 30-day and 1-year historical non-earnings volatility
     \end{itemize}
 
     \section{Black-Schole's Formulation}
     \begin{itemize}
-        \item 
+        \item Assume log-normal underlying asset price
+        \item Assume constant volatility
+        \item all options based on the underlying asset, the implied volatility should be the same
+    \end{itemize}
+
+    \section{Implied Volatility Property}
+    \begin{itemize}
+        \item Term structure of volatility (Maturity)
+        \item Stochastic volatility
+        \item Differ by strike price\\
+        1. Skew\\
+        2. Smile: extreme strike price have high implied volatility
+        3. Smirk
     \end{itemize}
 
     \section{dynamic option strategies}
